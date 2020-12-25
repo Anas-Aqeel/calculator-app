@@ -1,0 +1,122 @@
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+.heading, p{
+    text-align: center;
+    color: black;
+    text-shadow: 4px 2px 8px black;
+    text-transform: capitalize;
+    margin: 15px auto;
+
+}
+.maindiv{
+    margin: 80px auto 20px auto;
+    width: 220px;
+    height: 365px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 10px 10px 15px #b6a9a9, -10px -10px -15px #df0707;
+    text-align: center;
+}
+.input{
+    width: 200px;
+    margin-bottom: 30px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.726);
+    box-shadow: inset 3px 3px 5px rgb(214, 214, 214), inset -5px -5px 15px white;
+    padding: 2px 0 2px 5px;
+    font-size: 2.5rem;
+    border: none;
+}
+
+.calcbtn{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.726);
+    box-shadow:  3px 3px 5px rgb(255, 255, 255), -5px -5px 5px rgb(180, 177, 177);
+}
+.calcbtn-opr:focus{
+    border: none;
+    outline: none;
+}
+.calcbtn:focus{
+   border: none;
+   outline: none;
+}
+.calcbtn:active{
+    height: 47px;
+    width: 50px;
+}
+.calcbtn-opr{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    box-shadow: 3px 3px 5px rgb(214, 214, 214), -5px -5px 5px white;
+}
+.calcbtn-opr:active{
+    height: 47px;
+    width: 50px;
+}
+.clearbtn{
+    height: 50px;
+    width: 60%;
+    margin: 15px 0 ;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: none;
+    box-shadow: 5px 3px 8px rgb(82, 81, 81), -5px -5px 8px rgb(117, 114, 114);
+}
+.clearbtn:focus{
+    border: none;
+    outline: none;
+}
+.clearbtn:active ,.del:active{
+    box-shadow: 3px 2px 8px rgb(82, 81, 81), -3px -3px 8px rgb(117, 114, 114);
+}
+
+.calcrow{
+    text-align: center;
+}
+
+.calcrow1{
+    margin-bottom: 3px;
+    text-align: center;
+}
+.sm{
+    font-size: 1.7rem !important;
+}
+.point{
+    color: black;
+}
+.point:active{
+    height: 47px !important;
+    width: 50px;
+}
+.del{
+    width: 38%;
+    height: 50px;
+    margin: 15px 0 ;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: none;
+    box-shadow: 5px 3px 8px rgb(82, 81, 81), -5px -5px 8px rgb(117, 114, 114);
+}
+.del:focus{
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="heading">basic calculator app</h1>
+    <p>use this app and rate my work</p>
+    <div class="maindiv">
+      <div><input type="text" id="result" class="input" disabled></div>
+      <div class="calcrow">
+        <button class="calcbtn" onclick="getNumber('7')">7</button>
+        <button class="calcbtn" onclick="getNumber('8')">8</button>
+        <button class="calcbtn" onclick="getNumber('9')">9</button>
+        <button class="calcbtn-opr operator" id="multi" onclick="oper('*')">x</button>
+      </div>
+      <div class="calcrow">
+        <button class="calcbtn" onclick="getNumber('4')">4</button>
+        <button class="calcbtn" onclick="getNumber('5')">5</button>
+        <button class="calcbtn" onclick="getNumber('6')">6</button>
+        <button class="calcbtn-opr operator" id="minus" onclick="oper('-')">-</button>
+      </div>
+      <div class="calcrow">
+        <button class="calcbtn" onclick="getNumber('1')">1</button>
+        <button class="calcbtn" onclick="getNumber('2')">2</button>
+        <button class="calcbtn" onclick="getNumber('3')">3</button>
+        <button class="calcbtn-opr operator" id="plus" onclick="oper('+')">+</button>
+      </div>
+      <div class="calcrow1">
+        <button class="calcbtn" onclick="getNumber('0')">0</button>
+        <button class="calcbtn" id="decimal" onclick=" decimal('.')"><b>.</b></button>
+        <button class="calcbtn-opr operator" id="equal" onclick="resultnum()">=</button>
+        <button class="calcbtn-opr operator" id="divide" onclick="oper('/')">/</button>
+      </div>
+      <div class="calcrow">
+        <button class="clearbtn" onclick="clearnm()">C</button>
+        <button onclick="del(this)" class="del">remove</button>
+      </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
